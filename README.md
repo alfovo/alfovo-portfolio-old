@@ -1,1 +1,1 @@
-Hi! This is my one page graphic design portfolio I've created with twitter bootstrap.
+Hi! This is my one page graphic design portfolio I've created with bootstrap and a little custom CSS. Judge tenderly of me.
