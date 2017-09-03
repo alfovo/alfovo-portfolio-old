@@ -97,16 +97,16 @@ h2 {
 
 /* Headings */
 
-.navbar-nav {
+.navbar .navbar-nav {
 padding: 1rem 4.5rem;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
   display: flex;
   align-items: center;
 }
 
-.navbar-brand>img {
+.navbar .navbar-brand>img {
   padding: 0 2.5rem;
   max-width: 18rem;
   max-height: 10rem;
