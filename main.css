@@ -1,58 +1,115 @@
 body { 
-  padding-top: 125px;
-	position: relative;
+  padding-top: 6rem;
+  font-family: 'Alegreya', serif;
+  background: #f9f9f9;
+  position: relative;
+  font-size: 1.25em;
 }
 
 .container { 
-	padding: 2% 5%; 
-  position: relative;
+	padding: 1.5% 5%; 
 }
+
+.text-container{
+  max-width: 42.5rem;
+  padding: 0.25em 0;
+}
+
+.gallery {
+  margin: 2rem 0 0;
+}
+
+.img-fluid {
+  margin: 1.5rem 0;
+}
+
+.img-hover img {
+  -webkit-transition: all .3s ease; /* Safari and Chrome */
+  -moz-transition: all .3s ease; /* Firefox */
+  -o-transition: all .3s ease; /* IE 9 */
+  -ms-transition: all .3s ease; /* Opera */
+  transition: all .3s ease;
+}
+.img-hover img:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform:translateZ(0) scale(1.10); /* Safari and Chrome */
+  -moz-transform:scale(1.06); /* Firefox */
+  -ms-transform:scale(1.06); /* IE 9 */
+  -o-transform:translatZ(0) scale(1.06); /* Opera */
+  transform:translatZ(0) scale(1.06);
+}
+
+.banner {
+  margin-bottom: 2rem;
+}
+
+/* Headings */
 
 a {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
 	letter-spacing: 1px;
 	font-weight: 500;
+  color: #ABC038;
+  font-size: 0.85em;
+}
+
+p + p {
+  text-indent: 2em;
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.85;
+  margin: 0 0 1.85em;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
-	font-size: 70px;
+  font-size: 4.236em;
 	font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 0.3em;
 }
 
 h2 {
-	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+  font-size: 1.618em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0.85em 0 0.65em;
 }
 
-.navbar.navbar-default {
-  background-color: #ffffff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  padding: 20px 70px 20px 70px; 
+.smallcaps{
+  font-family: 'Alegreya SC', Georgia, serif;
 }
 
-.navbar.navbar-default .navbar-collapse {
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.dropcap{
+  font-size: 4.236em;
+  font-weight: 700;
+  display: block;
+  float: left;
+  width: .75em;
+  height: .7;
+  line-height: .8;
+  margin: 0;
 }
 
-.navbar-default .navbar-text {
-	color: black;
+/* Headings */
+
+.navbar-nav {
+padding: 1rem 4.5rem;
 }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:focus, 
-.navbar-default .navbar-nav>.active>a:hover {
-  color: black;
-  background-color: #ffffff;
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand>img {
+  padding: 0 2.5rem;
+  max-width: 18rem;
+  max-height: 10rem;
 }
 
 /*Taken as a freebie from http://www.nextbootstrap.com/2016/02/horizontal-divider-in-bootstrap.html*/
@@ -101,72 +158,3 @@ h2 {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: gray;
-}
-
-.col-sm-4:hover .overlay {
-  opacity: 0.8;
-}
-
-.col-sm-5:hover .overlay {
-  opacity: 0.8;
-}
-
-.text {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-family: 'Lato', sans-serif;
-}
-
-
-footer {
-  bottom: 0;
-  width: 100%;
-  background-color: #111;
-  text-align: center;
-  background-color: #F0EFEF;
-}
-
-.fa-instagram {
-  color: black;
-}
-
-.fa-etsy {
-  color: black;
-}
-
-.fa-github {
-  color: black;
-}
-
-.fa-linkedin {
-    color: black;
-}
-
-.fa {
-    opacity: 0.7;
-    transition: 1s;
-    -webkit-transition: 1s;
-    font-size: 30px;
-}
-
-.fa:hover{
-    opacity: 0.5;
-    transition: 1s;
-    -webkit-transition: 1s;
