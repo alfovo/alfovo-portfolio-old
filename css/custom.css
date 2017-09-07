@@ -1,5 +1,5 @@
 body { 
-  padding-top: 6.5rem;
+  padding-top: 4rem;
   font-family: 'Alegreya', serif;
   background: #f9f9f9;
   position: relative;
@@ -10,7 +10,7 @@ body {
 	padding: 1.5% 5%; 
 }
 
-.text-container{
+.text-container {
   max-width: 42.5rem;
   padding: 0.25em 0;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .banner {
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /* Headings */
@@ -67,13 +67,13 @@ p + p {
 
 p {
   font-weight: 400;
-  line-height: 1.8;
-  margin: 0 0 1.85em;
+  line-height: 1.6;
+  margin: 0.5em 0 1.6em;
 }
 
 h1 {
 	font-family: 'Lato', sans-serif;
-  font-size: 4.236em;
+  font-size: 3.157em;
 	font-weight: 700;
   line-height: 1.1;
   margin: 0 0 0.3em;
@@ -81,10 +81,19 @@ h1 {
 
 h2 {
 	font-family: 'Lato', sans-serif;
-  font-size: 1.618em;
+  font-size: 1.333em;
   font-weight: 300;
   line-height: 1.2;
   margin: 0.85em 0 0.65em;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75em;
+  color: #bcbcbc;
+  line-height: 1.2;
+  /*margin: 0.85em 0 1em;*/
+  margin: 2em 0 0.5em;
 }
 
 .smallcaps{
@@ -105,10 +114,10 @@ h2 {
 /* Headings */
 
 .navbar {
-background: #f9f9f9;
+  background: #f9f9f9;
 }
 .navbar .navbar-nav {
-padding: 1rem 4.5rem;
+  padding: 0.5rem 4.5rem;
 }
 
 .navbar .navbar-brand {
