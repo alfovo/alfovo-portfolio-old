@@ -1,1 +1,1 @@
-Hi! This is my one page graphic design portfolio I've created with bootstrap and a little custom CSS. Judge tenderly of me.
+Hi! This is my graphic design portfolio that I've created with bootstrap 4, fittext.js and a little custom CSS. Won't you stay awhile?
