@@ -127,9 +127,11 @@ h3 {
 .navbar {
   background: #f9f9f9;
 }
+
 .navbar .navbar-nav {
-  padding: 0.5rem 4.5rem;
+    padding: 0.5rem 4.5rem;
 }
+
 
 .navbar .navbar-brand {
   display: flex;
@@ -137,9 +139,22 @@ h3 {
 }
 
 .navbar .navbar-brand>img {
-  padding: 0 2.5rem;
-  max-width: 18rem;
-  max-height: 10rem;
+    padding: 0 2.5rem;
+    max-width: 19rem;
+    max-height: 10rem;
+  }
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand>img {
+    padding: 0 0.35rem;
+    max-width: 13.75rem;
+    max-height: 10rem;
+  }
+}
+
+.navbar .navbar-toggler-right {
+  margin-top: 0.55rem;
+  right: 1.5rem;
 }
 
 .btn-success {
