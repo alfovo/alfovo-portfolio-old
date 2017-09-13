@@ -179,7 +179,7 @@ function init()
 	}
 	logElement = document.getElementById('log');
 	atlas = new Image();  
-	atlas.src = 'mona_lisa.svg';
+	atlas.src = 'img/mona_lisa.svg';
 	atlas.onload = function()
 	{ 
 		window.addEventListener ("mousemove", getCoords, true);
