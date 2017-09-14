@@ -19,21 +19,17 @@ body {
   margin: 1.5rem 0;
 }
 
-.img-hover img {
-  -webkit-transition: all .3s ease; /* Safari and Chrome */
-  -moz-transition: all .3s ease; /* Firefox */
-  -o-transition: all .3s ease; /* IE 9 */
-  -ms-transition: all .3s ease; /* Opera */
-  transition: all .3s ease;
+.grow img {
+  -webkit-transition: all .25s ease; /* Safari and Chrome */
+  -moz-transition: all .25s ease; /* Firefox */
+  transition: all .25s ease;
 }
-.img-hover img:hover {
+.grow img:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform:translateZ(0) scale(1.10); /* Safari and Chrome */
-  -moz-transform:scale(1.06); /* Firefox */
-  -ms-transform:scale(1.06); /* IE 9 */
-  -o-transform:translatZ(0) scale(1.06); /* Opera */
-  transform:translatZ(0) scale(1.06);
+  -moz-transform:scale(1.05); /* Firefox */
+  transform:translatZ(0) scale(1.05);
 }
 
 .banner {
@@ -57,6 +53,7 @@ a {
 
 a:hover {
     opacity: 0.7;
+    transition: opacity .15s ease-in;
     color: #ABC038;
     text-decoration: none;
 }
